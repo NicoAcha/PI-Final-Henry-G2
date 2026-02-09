@@ -23,10 +23,12 @@ Análisis y optimización de inventarios utilizando:
 ## Estructura del repositorio
 /notebooks
 limpieza_*.ipynb → limpieza individual por dataset
+
 00_master_pipeline.ipynb → integrador de datos
 
 /docs
 ERD_model.md → explicación del modelo estrella
+
 notas_limpieza.md → decisiones por dataset
 
 ## Modelo de datos
