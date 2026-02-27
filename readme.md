@@ -59,3 +59,19 @@ El proyecto utiliza un **esquema estrella** compuesto por:
 - Construir tablas fact/dim en BigQuery  
 - Desarrollo de métricas (margen, rotación, cobertura)  
 - Dashboard en Power BI
+
+- ## Power BI Dashboard
+
+El archivo principal del dashboard se encuentra en la carpeta `powerbi`.
+
+Nombre del archivo: `dapt10_g2_PF.pbix`
+
+Este dashboard permite analizar:
+- Rentabilidad por sucursal
+- Gestión de inventarios
+- Rotación de productos
+- Desempeño comercial
+
+Para visualizarlo:
+1. Descargar el archivo.
+2. Abrirlo con Power BI Desktop.
