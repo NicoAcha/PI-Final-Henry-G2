@@ -1,4 +1,5 @@
 📊 Prisma Analytics – Optimización de Inventarios y Rentabilidad
+
 👥 Equipo
 
 Facundo Spellanzon – Data Analyst
