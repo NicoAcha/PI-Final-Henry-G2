@@ -1,77 +1,150 @@
-# Proyecto final - Data Analytics Henry
+Perfecto 👍, y sí: para Henry es mejor en español.
+Para recruiters internacionales lo podríamos hacer en inglés más adelante, pero ahora el objetivo es aprobar, así que español está perfecto.
 
-## Equipo
-- Facundo Spellanzon - Data Analyst
-- Federico Acosta - Data Analyst
-- Diego Muller - Data Analyst
-- Martina Iara Guerberoff - Proyect Manager
-- Pedro Nicolás Acha - Lead Proyect Manager
+Tu README está bien estructurado, pero hoy suena muy técnico y poco orientado a negocio.
+Eso es lo único que cambiaría. No hace falta rehacer todo.
 
-## Objetivo
-Análisis y optimización de inventarios utilizando:
-- Python (Jupyter)
-- BigQuery
-- Power BI
+La idea:
+👉 mantener tu contenido, pero agregar negocio, impacto y storytelling (eso fue lo que te hizo destacar en el proyecto).
 
-## Alcance del proyecto
-- Limpieza y estandarización de 6 datasets de inventario, compras y ventas  
-- Integración en un pipeline único  
-- Modelado dimensional (star schema)  
-- Análisis exploratorio (EDA)  
-- Carga y explotación en BigQuery y Power BI
+🔥 README optimizado (copiá y pegá)
 
-## Estructura del repositorio
+Te dejo una versión mejorada, profesional y alineada con lo que Henry espera:
+
+📊 Prisma Analytics – Optimización de Inventarios y Rentabilidad
+👥 Equipo
+
+Facundo Spellanzon – Data Analyst
+
+Federico Acosta – Data Analyst
+
+Diego Muller – Data Analyst
+
+Martina Iara Guerberoff – Project Manager
+
+Pedro Nicolás Acha – Lead Project Manager
+
+🎯 Objetivo del proyecto
+
+Desarrollar un modelo analítico orientado a mejorar la gestión de inventarios y la rentabilidad en una empresa del sector retail, integrando múltiples fuentes de datos para facilitar la toma de decisiones estratégicas.
+
+El foco principal fue detectar oportunidades de mejora en:
+
+Rotación de productos
+
+Niveles de stock
+
+Rentabilidad por sucursal
+
+Eficiencia operativa
+
+🚀 Alcance del proyecto
+
+Limpieza y estandarización de datasets de inventario, compras y ventas
+
+Integración de fuentes en un pipeline unificado
+
+Diseño de un modelo dimensional (esquema estrella)
+
+Análisis exploratorio de datos (EDA)
+
+Automatización de la actualización de ventas
+
+Construcción de dashboards ejecutivos en Power BI
+
+Soporte a la toma de decisiones basada en datos
+
+🧠 Principales hallazgos
+
+El sobrestock y la baja rotación impactan significativamente en la rentabilidad
+
+Existen diferencias relevantes en desempeño entre sucursales
+
+La segmentación de productos permite optimizar compras y niveles de stock
+
+La visibilidad de costos y ventas mejora la planificación comercial
+
+⚙️ Tecnologías utilizadas
+
+Python (Jupyter Notebook)
+
+BigQuery
+
+Power BI
+
+SQL
+
+🗂️ Estructura del repositorio
 /notebooks
 
 limpieza_*.ipynb → limpieza individual por dataset
 
-00_master_pipeline.ipynb → integrador de datos
+00_master_pipeline.ipynb → integración de datos
 
 /docs
 
-ERD_model.md → explicación del modelo estrella
+ERD_model.md → explicación del modelo dimensional
 
-notas_limpieza.md → decisiones por dataset
+notas_limpieza.md → decisiones de transformación
 
-## Modelo de datos
-El proyecto utiliza un **esquema estrella** compuesto por:
+/scripts_ETL
 
-**Dimensiones**
-- Product  
-- Vendor  
-- Branch  
-- Date  
+Scripts de automatización para actualización de ventas y mantenimiento del modelo.
 
-**Tablas de hechos**
-- Fact_Sales → cantidades e ingresos por venta  
-- Fact_Purchases → costos y volúmenes de compra  
-- Fact_InventorySnapshot → estado de stock por fecha
+🏗️ Modelo de datos
 
-## Pipeline actual
-1. Limpieza individual de cada CSV  
-2. Generación de `_clean.csv`  
-3. Integración en `00_master_pipeline.ipynb`  
-4. Validación de nulos y duplicados  
-5. Próximo: carga a BigQuery
+El proyecto utiliza un esquema estrella compuesto por:
 
-## Próximos pasos
-- Definir llaves de unión entre datasets  
-- Construir tablas fact/dim en BigQuery  
-- Desarrollo de métricas (margen, rotación, cobertura)  
-- Dashboard en Power BI
+Dimensiones
 
-- ## Power BI Dashboard
+Product
 
-El archivo principal del dashboard se encuentra en la carpeta `powerbi`.
+Vendor
 
-Nombre del archivo: `dapt10_g2_PF.pbix`
+Branch
 
-Este dashboard permite analizar:
-- Rentabilidad por sucursal
-- Gestión de inventarios
-- Rotación de productos
-- Desempeño comercial
+Date
 
-Para visualizarlo:
-1. Descargar el archivo.
-2. Abrirlo con Power BI Desktop.
+Tablas de hechos
+
+Fact_Sales → ingresos y cantidades vendidas
+
+Fact_Purchases → costos y volúmenes de compra
+
+Fact_InventorySnapshot → estado de stock por fecha
+
+🔄 Pipeline
+
+Limpieza de datasets
+
+Generación de datos estandarizados
+
+Integración en pipeline
+
+Validación de calidad
+
+Carga a BigQuery
+
+Actualización automática de ventas
+
+📊 Dashboard en Power BI
+
+El archivo principal se encuentra en la carpeta /powerbi.
+
+Nombre: dapt10_g2_PF.pbix
+
+Permite analizar:
+
+Rentabilidad por sucursal
+
+Gestión de inventarios
+
+Rotación de productos
+
+Desempeño comercial
+
+Para visualizar:
+
+Descargar el archivo
+
+Abrir en Power BI Desktop
