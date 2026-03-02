@@ -1,16 +1,3 @@
-Perfecto 👍, y sí: para Henry es mejor en español.
-Para recruiters internacionales lo podríamos hacer en inglés más adelante, pero ahora el objetivo es aprobar, así que español está perfecto.
-
-Tu README está bien estructurado, pero hoy suena muy técnico y poco orientado a negocio.
-Eso es lo único que cambiaría. No hace falta rehacer todo.
-
-La idea:
-👉 mantener tu contenido, pero agregar negocio, impacto y storytelling (eso fue lo que te hizo destacar en el proyecto).
-
-🔥 README optimizado (copiá y pegá)
-
-Te dejo una versión mejorada, profesional y alineada con lo que Henry espera:
-
 📊 Prisma Analytics – Optimización de Inventarios y Rentabilidad
 👥 Equipo
 
